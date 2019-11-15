@@ -12,7 +12,7 @@ def largest(arr,n):
     return max
   
 # Driver Code 
-arr = [10, 324, 45, 90, 98, 8]
+arr = [10, 324, 45, 90, 98, 8,15,123,66,77,1000]
 n = len(arr) 
 Ans = largest(arr,n) 
 print ("Largest in given array is",Ans) 
