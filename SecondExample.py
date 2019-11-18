@@ -2,7 +2,6 @@ def largest(arr,n):
   
     # Initialize maximum element 
     max = arr[0] 
-  
     # Traverse array elements from second 
     # and compare every element with  
     # current max 
@@ -12,7 +11,7 @@ def largest(arr,n):
     return max
   
 # Driver Code 
-arr = [10, 324, 45, 90, 98, 8,15,123,66,77,1000]
+arr = [10, 324, 45, 90, 98, 8]
 n = len(arr) 
 Ans = largest(arr,n) 
 print ("Largest in given array is",Ans) 
